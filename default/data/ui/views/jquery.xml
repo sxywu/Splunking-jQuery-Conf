@@ -1,0 +1,3 @@
+<view template="jquery:/templates/index.html">
+    <label></label>
+</view>

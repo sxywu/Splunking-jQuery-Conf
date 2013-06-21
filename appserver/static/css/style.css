@@ -1,0 +1,281 @@
+body {
+    background-color: #073642; /* base02 */
+}
+
+/* settings */
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text {
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #eee8d5; /* base2 */
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 10 20 0 20;
+    white-space: nowrap;
+}
+
+/*.arrow .text {
+    font-size: 1.5em;
+}*/
+
+.text.inverted {
+    color: #073642;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin: 10 0;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.title {
+    color: #2aa198; /*cyan*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    padding: 10 20 0 20;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+strong {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+/* colors */
+
+.base2 {
+    color: #eee8d5;
+}
+
+.blue {
+    color: #268bd2; /* blue */
+}
+
+.magenta {
+    color: #d33682;
+}
+
+.unhighlight {
+    opacity: .1;
+}
+
+/* static content */
+
+#main {
+    width: 1000px;
+    height: 3500px;
+    position: relative;
+}
+
+#leftLine {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-top: 2px solid #2aa198;
+    border-right: 1px solid #2aa198;
+    z-index: -10;
+}
+
+#dates {
+    width: 51%;
+    margin: 25px 0;
+}
+
+#intro {
+    width: 51%;
+    margin: 25px 0;
+}
+
+#statistics {
+    width: 51%;
+    margin: 25px 0;
+}
+
+#interacting {
+    min-height: 300px;
+    width: 100%;
+    background-color: #fdf6e3; /* base3 */
+    border: 3px solid #2aa198;
+    margin: 50px 0;
+}
+
+#interactingChart {
+    width: 70%;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+#interactingSelect {
+    margin: 0 20px;
+}
+
+#interactingLegend {
+    padding: 20px;
+    display: inline-block;
+}
+
+#interactingLegend .text {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#interactingHover {
+    margin: 20px;
+    display: inline-block;
+    background-color: #073642;
+    opacity: 0.75;
+}
+
+#interactingHover .text {
+    padding: 10px;
+    white-space: normal;
+}
+
+.interactingBar {
+    /*height: 15px;*/
+    padding: 15px 15px;
+    border-bottom: 1px dashed #2aa198;
+}
+
+#popularity {
+    min-height: 300px;
+    width: 100%;
+    margin: 25px 0;
+}
+
+#popularityTitle {
+    width: 50%;
+}
+
+#popularityTagline {
+    width: 50%;
+    margin: 20px 0;
+}
+
+#popularityContent {
+    width: 100%;
+    background-color: #073642;
+    min-height: 300px; 
+}
+
+#popularitySpeakers {
+    width: 50%;
+    border-top: 1px solid #2aa198;
+    border-right: 1px solid #2aa198;
+    border-bottom: 1px solid #2aa198;
+    padding: 20px 0;
+    min-height: 300px;
+}
+
+#popularityTalks {
+    width: 49.9%;
+    padding: 20px 0;
+    margin-top: 1px;
+    min-height: 300px;
+}
+
+.popularityText {
+    font-size: 1.25em;
+    /*clear: right;*/
+}
+
+.popularityRect {
+    clear: both;
+}
+
+.popularityRect.left {
+    width: 100%;
+}
+/*.truncated {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}*/
+
+.popularityTitle {
+    width: 100%;
+}
+
+#funnel {
+    min-height: 300px;
+    width: 100%;
+    background-color: #fdf6e3; /* base3 */
+    border: 3px solid #2aa198;
+    margin: 75px 0;
+}
+
+#funnelChart {
+    border-bottom: 1px solid #073642;
+}
+
+.funnelBar {
+    display: inline-block;
+}
+
+#funnelLegend {
+    margin: 25px 0;
+}
+
+#funnelLegend .text {
+    cursor: pointer;
+    display: inline-block;
+    white-space: normal;
+}
+
+#funnelHover {
+    margin: 20px;
+    display: inline-block;
+    background-color: #073642;
+    opacity: 0.75;
+}
+
+#funnelHover .text {
+    padding: 10px;
+    white-space: normal;
+}
+
+#funnelFooter {
+    clear: both;
+    /*margin: 0 25px;*/
+}
+
+#funnelFooter .text {
+    display: inline-block;
+    padding: 10 0;
+}
+
+#footer {
+    width: 100%;
+    background-color: #073642; 
+    margin: 75px 0;
+}

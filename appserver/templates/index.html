@@ -1,0 +1,98 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <title>Splunking the jQuery Conf</title>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:100,900' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/static/app/jquery/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="/static/app/jquery/css/style.css" type="text/css" />
+
+        <script type="text/javascript" src="/static/js/i18n.js"></script>
+        <script type="text/javascript" src="/static/js/splunk.js"></script>
+        <script type="text/javascript" src="/static/js/util.js"></script>
+        <script data-main="/static/app/jquery/js/main" src="/static/app/jquery/js/contrib/require-jquery.js"></script>
+    </head>
+
+    <body>
+
+        <div class="center" id="main">
+            <h1 class="title text-center">Splunking the <strong>jQuery</strong> Conf</h1>
+
+            <div class="left" id="leftLine"></div>
+            <div class="right" id="dates">
+                <div class="text">
+                    <span class="blue">start</span>: June 7, 2013<br>
+                    <span class="blue">end</span>: June 14, 2013
+                </div>
+            </div>
+            <div class="left" id="intro">
+                <h2 class="title text-right">what we wanted to <strong>know</strong></h2>
+                <div class="text text-right">
+                    which talks and speakers was the user interested in?<br>
+                    did the user buy a ticket to the conference?<br>
+                    how did a user spend their time on the page?<br>
+                </div>
+            </div>
+            <div class="right" id="statistics">
+                <h2 class="title text-left">but first, some <strong>statistics</strong></h2>
+                <div class="text text-left">
+                    <span class="blue">8104</span> unique visitors<br>
+                    <span class="blue">24</span> tickets bought<br>
+                    peak traffic <span class="blue">June 13, 2013</span> with <span class="blue">4467</span> pageviews<br>
+                </div>
+            </div>
+
+           
+
+            <div class="left" id="popularity">
+                <div class="left" id="popularityTitle"><!-- 
+                    <h2 class="title text-right"><strong>popularity</strong> contest</h2>  -->
+                    <h3 class="title text-right">which talks are most <strong>clicked</strong> on?</h3> 
+                </div>
+                <div class="right" id="popularityTagline">
+                    <span class="text text-left">and what about their speakers?</span>
+                </div>
+
+                <div class="left" id="popularityContent">
+                    <div class="right" id="popularitySpeakers">
+                        <h3 class="title text-left base2"><strong>speakers</strong></h3>
+                    </div>
+
+                    <div class="left" id="popularityTalks">
+                        <h3 class="title text-right blue"><strong>talks</strong></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left" id="funnel">
+                <h2 class="title text-center">where is traffic with most <strong>purchases</strong> coming from?</h2>
+                <div class="left" id="funnelChart">
+                </div>
+                <div class="right" id="funnelLegend">
+                </div>
+                <div class="right" id="funnelHover">
+                </div>
+                <div class="left" id="funnelFooter">
+                </div>
+            </div>
+
+             <div class="left" id="interacting">
+                <h2 class="title text-center">how are the users <strong>interacting</strong> with the site?</h2>
+                <div class="left" id="interactingChart">
+                </div>
+                <select class="right" id="interactingSelect">
+                </select>
+                <div class="right" id="interactingLegend">
+                </div>
+                <div class="right" id="interactingHover">
+                </div>
+            </div>
+
+            <div class="left" id="footer">
+                <div class="text text-center">Made with a combination of Splunk, jQuery, <br>
+                    Require.js, Backbone.js, and D3.js</div>
+            </div>
+        </div>
+
+    </body>
+</html>
